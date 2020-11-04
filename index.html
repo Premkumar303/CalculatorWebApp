@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <title>Simple Calculator</title>
+
+</head>
+<body>
+    <div class="title">
+        <h1 id="heading">Simple Calculator</h1>
+        <p id = "quote"><em>-Calculation made simple..</em></p>
+    </div>
+    <div class="calc-box" id='calc-page'>
+        <div class = "calc-output" >
+            <ion-icon name="file-tray-stacked-outline" id="history"></ion-icon>
+            <div class="calc-ipt"></div>
+            <div class="calc-opt"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="keyboard-values">
+            <button class="operator" id="clear">C</button>
+            <button class="operator" id="delete"><ion-icon name="backspace-outline"></ion-icon></button>
+            <button class="operator" id="%">%</button>
+            <button class="operator" id="/">&#247;</button>
+            <button class="number" id="7">7</button>
+            <button class="number" id="8">8</button>
+            <button class="number" id="9">9</button>
+            <button class="operator opt" id="*">&#215;</button>
+            <button class="number" id="4">4</button>
+            <button class="number" id="5">5</button>
+            <button class="number" id="6">6</button>
+            <button class="operator" id="-">&#8722;</button>
+            <button class="number" id="1">1</button>
+            <button class="number" id="2">2</button>
+            <button class="number" id="3">3</button>
+            <button class="operator" id="+">+</button>
+            <button class="empty"></button>
+            <button class="number" id="0">0</button>
+            <button class="empty">&#8729;</button>
+            <button class="operator" id="=">&#61;</button>
+        </div>
+    </div>
+    <div class="his-page">
+    <div class="calc-box hide" id='history-page'>
+        <ion-icon name="calculator-outline" id="back"></ion-icon>
+        <h2>Calculation History</h2>
+        <div class="clearfix"></div>
+        <div class="results"></div>
+
+        <button class = "btn clear-his">Clear</button>
+    </div>
+
+    </div>
+
+
+    
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

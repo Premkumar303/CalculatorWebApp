@@ -1,0 +1,150 @@
+@media only screen and (max-width:1300px){
+    .title{
+        float: left;
+    }
+    #heading{
+        margin: 200px 40px 0 50px;
+        color: floralwhite;
+        text-transform: uppercase;
+        font-size: 200%;
+        font-weight: 900;
+        
+    }
+    #quote{
+        color: floralwhite;
+        font-size: 75%;
+        margin-top: 3px;
+    }
+    .calc-box{
+        border:solid 2px rgb(240, 207, 207);
+        border-radius: 5px;;
+        margin:50px auto;
+        height:465px;
+        width:300px;
+        background: rgb(17, 3, 3);
+        box-shadow: 5px 3px 3px 3px rgba(123, 134, 80, 0.589);
+        overflow: auto;
+    }
+    html,
+    body {
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('img/calc.jpg');
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:1023px){
+    
+    #heading{
+        margin: 200px 20px 0 20px;
+        color: floralwhite;
+        text-transform: uppercase;
+        font-size: 140%;
+        font-weight: 900;
+        float: left;
+    }
+    #quote{
+        color: floralwhite;
+        font-size: 75%;
+        margin-top: 3px;
+    }
+    .calc-box{
+        border:solid 2px rgb(240, 207, 207);
+        border-radius: 5px;;
+        margin:50px auto;
+        height:465px;
+        width:300px;
+        background: rgb(17, 3, 3);
+        box-shadow: 5px 3px 3px 3px rgba(129, 85, 92, 0.589);
+        overflow: auto;
+    }
+    html,
+    body {
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('img/calc.jpg');
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:767px){
+    .title{
+        float: none;
+    }
+    #heading{
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        color: floralwhite;
+        text-transform: uppercase;
+        font-size: 140%;
+        float: none;
+    }
+    #quote{
+        display: block;
+        text-align: center;
+        color: floralwhite;
+        font-size: 75%;
+        margin-top: 3px;
+    }
+    .calc-box{
+        border:solid 2px rgb(240, 207, 207);
+        border-radius: 5px;;
+        margin:20px auto;
+        height:465px;
+        width:300px;
+        background: rgb(17, 3, 3);
+        box-shadow: 5px 3px 3px 3px rgba(129, 85, 92, 0.589);
+        overflow: auto;
+    }
+    html,
+    body {
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        background:linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.74)),url('img/calc-small.jpg');
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:480px){
+    #heading{
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        color: floralwhite;
+        text-transform: uppercase;
+        font-size: 140%;
+        float: none;
+    }
+    #quote{
+        text-align: center;
+        color: floralwhite;
+        font-size: 75%;
+        margin-top: 3px;
+    }
+    .calc-box{
+        border:solid 2px rgb(240, 207, 207);
+        border-radius: 5px;;
+        margin:20px auto;
+        height:465px;
+        width:300px;
+        background: rgb(17, 3, 3);
+        box-shadow: 5px 3px 3px 3px rgba(129, 85, 92, 0.589);
+        overflow: auto;
+    }
+    html,
+    body {
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('img/calc-small.jpg');
+        background-size: cover;
+    }
+}
